@@ -5,7 +5,7 @@ NSErrorDomain const SDSCallHistoryServiceErrorDomain = @"com.smartdialsim.callhi
 @implementation SDSCallHistoryService
 - (BOOL)available { return NO; }
 - (NSString *)providerDescription { return @"REQUIRES_DEVICE_VERIFICATION"; }
-- (void)loadRecentCallsWithCompletion:(void (^)(NSArray *, NSError *))completion {
+- (void)loadRecentCallsWithCompletion:(void (^)(NSArray<SDSCallHistoryEntry *> *entries, NSError * _Nullable error))completion {
     if (!completion) return;
     NSError *error = [NSError errorWithDomain:SDSCallHistoryServiceErrorDomain
                                          code:100
