@@ -1,0 +1,7 @@
+{
+    Filter = {
+        Bundles = (
+            "REQUIRES_DEVICE_VERIFICATION.invalid"
+        );
+    };
+}

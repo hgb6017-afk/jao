@@ -1,0 +1,9 @@
+Package: com.smartdialsim.tweak
+Name: SmartDialSIM
+Version: 0.4.1-stage4.1
+Architecture: iphoneos-arm64e
+Depends: mobilesubstrate, firmware (>= 15.0)
+Description: Smart Dial and compact SIM presentation scaffold for Apple's Phone app. Stage 4.1 dual-version build targets iOS 15.x and iOS 16.2 and remains intentionally inert until per-family runtime verification is completed.
+Maintainer: Local Development
+Author: Local Development
+Section: Tweaks
